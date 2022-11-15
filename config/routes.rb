@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   get 'input' => 'pages#input'
   get 'result' => 'pages#result'

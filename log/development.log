@@ -1736,3 +1736,1085 @@ Processing by PagesController#input as HTML
 Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 4140)
 
 
+Started GET "/" for ::1 at 2022-11-15 13:09:12 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 5.8ms | Allocations: 2142)
+  Rendered layout layouts/application.html.erb (Duration: 302.1ms | Allocations: 45507)
+Completed 200 OK in 319ms (Views: 307.4ms | ActiveRecord: 0.0ms | Allocations: 48948)
+
+
+Started GET "/result?input=2s&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:09:18 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"2s", "commit"=>"Тык"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 884)
+
+
+  
+Errno::ENOENT (No such file or directory - Введите):
+  
+app/controllers/pages_controller.rb:27:in ``'
+app/controllers/pages_controller.rb:27:in `need_any_numbers'
+Started GET "/" for ::1 at 2022-11-15 13:09:37 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1222)
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 15540)
+Completed 200 OK in 31ms (Views: 30.5ms | Allocations: 16266)
+
+
+Started GET "/result?input=s&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:09:40 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"s", "commit"=>"Тык"}
+Completed 500 Internal Server Error in 4ms (Allocations: 787)
+
+
+  
+Errno::ENOENT (No such file or directory - Введите):
+  
+app/controllers/pages_controller.rb:27:in ``'
+app/controllers/pages_controller.rb:27:in `need_any_numbers'
+Started GET "/" for ::1 at 2022-11-15 13:10:24 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1221)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 15526)
+Completed 200 OK in 30ms (Views: 29.0ms | Allocations: 16248)
+
+
+Started GET "/result?input=s&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:10:27 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"s", "commit"=>"Тык"}
+Completed 500 Internal Server Error in 2ms (Allocations: 775)
+
+
+  
+Errno::ENOENT (No such file or directory - Введите):
+  
+app/controllers/pages_controller.rb:27:in ``'
+app/controllers/pages_controller.rb:27:in `need_any_numbers'
+Started GET "/" for ::1 at 2022-11-15 13:11:01 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1221)
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 15521)
+Completed 200 OK in 34ms (Views: 33.5ms | Allocations: 16247)
+
+
+Started GET "/result?input=s&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:11:02 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"s", "commit"=>"Тык"}
+Redirected to http://localhost:3000/
+Filter chain halted as :validate_all rendered or redirected
+Completed 302 Found in 4ms (Allocations: 588)
+
+
+Started GET "/" for ::1 at 2022-11-15 13:11:02 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3867)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 4135)
+
+
+Started GET "/" for ::1 at 2022-11-15 13:11:20 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1273)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 15475)
+Completed 200 OK in 27ms (Views: 26.4ms | Allocations: 16196)
+
+
+Started GET "/result?input=s&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:11:24 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"s", "commit"=>"Тык"}
+Completed 500 Internal Server Error in 2ms (Allocations: 781)
+
+
+  
+Errno::ENOENT (No such file or directory - Введите):
+  
+app/controllers/pages_controller.rb:26:in ``'
+app/controllers/pages_controller.rb:26:in `need_any_numbers'
+Started GET "/" for ::1 at 2022-11-15 13:11:53 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1221)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 15526)
+Completed 200 OK in 34ms (Views: 32.7ms | Allocations: 16249)
+
+
+Started GET "/result?input=&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:11:55 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"", "commit"=>"Тык"}
+Redirected to http://localhost:3000/
+Filter chain halted as :validate_all rendered or redirected
+Completed 302 Found in 3ms (Allocations: 500)
+
+
+Started GET "/" for ::1 at 2022-11-15 13:11:55 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3872)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 4140)
+
+
+Started GET "/result?input=238+02384+234&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:12:04 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"238 02384 234", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 4.8ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2587)
+Completed 200 OK in 13ms (Views: 11.5ms | Allocations: 3221)
+
+
+Started GET "/input" for ::1 at 2022-11-15 13:12:17 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3837)
+Completed 200 OK in 15ms (Views: 14.2ms | Allocations: 4092)
+
+
+Started GET "/result?input=344+34+09323&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:12:34 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"344 34 09323", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2406)
+Completed 200 OK in 13ms (Views: 10.9ms | Allocations: 2958)
+
+
+Started GET "/input" for ::1 at 2022-11-15 13:12:37 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3855)
+Completed 200 OK in 14ms (Views: 12.5ms | Allocations: 4110)
+
+
+Started GET "/input" for ::1 at 2022-11-15 13:24:14 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1452)
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 15992)
+Completed 200 OK in 43ms (Views: 41.6ms | Allocations: 17039)
+
+
+Started GET "/result?input=s&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:24:16 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"s", "commit"=>"Тык"}
+Redirected to http://localhost:3000/
+Filter chain halted as :validate_all rendered or redirected
+Completed 302 Found in 2ms (Allocations: 489)
+
+
+Started GET "/" for ::1 at 2022-11-15 13:24:16 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3888)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 4156)
+
+
+Started GET "/" for ::1 at 2022-11-15 13:37:22 +0300
+  
+SyntaxError (/home/liubava/Desktop/rk2/app/controllers/pages_controller.rb:27: syntax error, unexpected '}', expecting '.' or &. or :: or '['
+...(\.\d+)?))+)?$/))[1].length, 1}"
+...                              ^
+/home/liubava/Desktop/rk2/app/controllers/pages_controller.rb:45: unterminated string meets end of file
+/home/liubava/Desktop/rk2/app/controllers/pages_controller.rb:45: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/controllers/pages_controller.rb:27: syntax error, unexpected '}', expecting '.' or &. or :: or '['
+app/controllers/pages_controller.rb:45: unterminated string meets end of file
+app/controllers/pages_controller.rb:45: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/pages_controller.rb:27: syntax error, unexpected '}', expecting '.' or &. or :: or '['
+app/controllers/pages_controller.rb:45: unterminated string meets end of file
+app/controllers/pages_controller.rb:45: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/pages_controller.rb:27: syntax error, unexpected '}', expecting '.' or &. or :: or '['
+app/controllers/pages_controller.rb:45: unterminated string meets end of file
+app/controllers/pages_controller.rb:45: syntax error, unexpected end-of-input, expecting '}'
+Started GET "/" for ::1 at 2022-11-15 13:37:42 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1274)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 15582)
+Completed 200 OK in 34ms (Views: 32.7ms | Allocations: 16304)
+
+
+Started GET "/" for ::1 at 2022-11-15 13:43:52 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1221)
+  Rendered layout layouts/application.html.erb (Duration: 33.8ms | Allocations: 15520)
+Completed 200 OK in 37ms (Views: 35.9ms | Allocations: 16243)
+
+
+Started GET "/" for ::1 at 2022-11-15 13:43:53 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3852)
+Completed 200 OK in 11ms (Views: 10.2ms | Allocations: 4122)
+
+
+Started GET "/result?input=2&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:43:56 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"2", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 2.2ms | Allocations: 230)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2589)
+Completed 200 OK in 12ms (Views: 9.5ms | Allocations: 3215)
+
+
+Started GET "/input" for ::1 at 2022-11-15 13:43:58 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 3834)
+Completed 200 OK in 14ms (Views: 13.5ms | Allocations: 4089)
+
+
+Started GET "/result?input=s&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:44:00 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"s", "commit"=>"Тык"}
+Completed 500 Internal Server Error in 7ms (Allocations: 2569)
+
+
+  
+NoMethodError (undefined method `mismatch' for "s":String
+Did you mean?  match):
+  
+app/controllers/pages_controller.rb:27:in `need_any_numbers'
+Started GET "/result?input=2&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:44:02 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"2", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.3ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2418)
+Completed 200 OK in 10ms (Views: 8.5ms | Allocations: 2974)
+
+
+Started GET "/result?input=2&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:44:02 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"2", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2405)
+Completed 200 OK in 10ms (Views: 7.7ms | Allocations: 2949)
+
+
+Started GET "/input" for ::1 at 2022-11-15 13:44:06 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3835)
+Completed 200 OK in 15ms (Views: 13.8ms | Allocations: 4090)
+
+
+Started GET "/result?input=22&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:44:21 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"22", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 14053)
+Completed 200 OK in 28ms (Views: 26.5ms | Allocations: 15136)
+
+
+Started GET "/input" for ::1 at 2022-11-15 13:44:23 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1243)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3956)
+Completed 200 OK in 15ms (Views: 14.1ms | Allocations: 4230)
+
+
+Started GET "/result?input=2s&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:44:26 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"2s", "commit"=>"Тык"}
+Completed 500 Internal Server Error in 3ms (Allocations: 780)
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/pages_controller.rb:27:in `[]'
+app/controllers/pages_controller.rb:27:in `need_any_numbers'
+Started GET "/result?input=22&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:44:28 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"22", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.3ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2420)
+Completed 200 OK in 12ms (Views: 9.0ms | Allocations: 2991)
+
+
+Started GET "/result?input=22&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 13:44:28 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"22", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2405)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 2958)
+
+
+Started GET "/input" for ::1 at 2022-11-15 13:44:29 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3844)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 4099)
+
+
+Started GET "/input" for ::1 at 2022-11-15 15:41:13 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1221)
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 15525)
+Completed 200 OK in 49ms (Views: 48.0ms | Allocations: 16247)
+
+
+Started GET "/result?input=s&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 15:41:16 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"s", "commit"=>"Тык"}
+Redirected to http://localhost:3000/
+Filter chain halted as :validate_all rendered or redirected
+Completed 302 Found in 2ms (Allocations: 498)
+
+
+Started GET "/" for ::1 at 2022-11-15 15:41:16 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3884)
+Completed 200 OK in 14ms (Views: 12.9ms | Allocations: 4152)
+
+
+Started GET "/" for ::1 at 2022-11-15 15:50:40 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2136)
+  Rendered layout layouts/application.html.erb (Duration: 110.1ms | Allocations: 37757)
+Completed 200 OK in 134ms (Views: 124.9ms | ActiveRecord: 0.0ms | Allocations: 41189)
+
+
+Started GET "/result?input=s&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 15:50:50 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"s", "commit"=>"Тык"}
+Redirected to http://localhost:3000/
+Filter chain halted as :validate_all rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms | Allocations: 675)
+
+
+Started GET "/" for ::1 at 2022-11-15 15:50:50 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1239)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 4030)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 4337)
+
+
+Started GET "/" for ::1 at 2022-11-15 15:51:10 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1274)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 15498)
+Completed 200 OK in 27ms (Views: 25.6ms | Allocations: 16222)
+
+
+Started GET "/result?input=3+4+90-+&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 15:51:16 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"3 4 90- ", "commit"=>"Тык"}
+Redirected to http://localhost:3000/
+Filter chain halted as :validate_all rendered or redirected
+Completed 302 Found in 2ms (Allocations: 497)
+
+
+Started GET "/" for ::1 at 2022-11-15 15:51:16 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3876)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 4147)
+
+
+Started GET "/result?input=-34+1234+3489+123.34+009&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 15:51:27 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"-34 1234 3489 123.34 009", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 1.1ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2583)
+Completed 200 OK in 9ms (Views: 7.3ms | Allocations: 3202)
+
+
+Started GET "/input" for ::1 at 2022-11-15 15:51:29 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 3865)
+Completed 200 OK in 46ms (Views: 45.2ms | Allocations: 4121)
+
+
+Started GET "/input" for ::1 at 2022-11-15 15:54:32 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1460)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 16039)
+Completed 200 OK in 34ms (Views: 32.9ms | Allocations: 17071)
+
+
+Started GET "/result?input=34+09+34.123+3498&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 15:54:41 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"34 09 34.123 3498", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 1.4ms | Allocations: 219)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2578)
+Completed 200 OK in 10ms (Views: 8.3ms | Allocations: 3191)
+
+
+Started GET "/input" for ::1 at 2022-11-15 15:54:45 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 3864)
+Completed 200 OK in 18ms (Views: 16.5ms | Allocations: 4120)
+
+
+Started GET "/result?input=2134+09+234&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 15:54:51 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"2134 09 234", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2407)
+Completed 200 OK in 12ms (Views: 10.1ms | Allocations: 2963)
+
+
+Started GET "/input" for ::1 at 2022-11-15 15:54:52 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3855)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 4110)
+
+
+Started GET "/input" for ::1 at 2022-11-15 15:55:12 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1220)
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 15503)
+Completed 200 OK in 36ms (Views: 34.6ms | Allocations: 16210)
+
+
+Started GET "/result?input=23+2354+0.02+009+23.44+00.12&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 15:55:23 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"23 2354 0.02 009 23.44 00.12", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 71)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 2430)
+Completed 200 OK in 27ms (Views: 24.9ms | Allocations: 2996)
+
+
+Started GET "/input" for ::1 at 2022-11-15 15:55:26 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 3823)
+Completed 200 OK in 33ms (Views: 32.5ms | Allocations: 4078)
+
+
+Started GET "/input" for ::1 at 2022-11-15 15:55:37 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1274)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 15582)
+Completed 200 OK in 30ms (Views: 29.0ms | Allocations: 16290)
+
+
+Started GET "/result?input=23+34+009+233+00.32+-34.12&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 15:55:48 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"23 34 009 233 00.32 -34.12", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.6ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2456)
+Completed 200 OK in 12ms (Views: 10.4ms | Allocations: 3032)
+
+
+Started GET "/input" for ::1 at 2022-11-15 15:56:02 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3841)
+Completed 200 OK in 13ms (Views: 12.1ms | Allocations: 4096)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:10:35 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2146)
+  Rendered layout layouts/application.html.erb (Duration: 222.5ms | Allocations: 38468)
+Completed 200 OK in 234ms (Views: 226.9ms | ActiveRecord: 0.0ms | Allocations: 41894)
+
+
+Started GET "/result?input=1+-3+4+-5+23+78.23+-676+123+0.32&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:10:54 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"1 -3 4 -5 23 78.23 -676 123 0.32", "commit"=>"Тык"}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 3670)
+
+
+  
+NoMethodError (undefined method `select!' for #<PagesController:0x0000000000a848>
+
+    @counter = select!.with_index{|el, i| i % 3 == 0}.size
+               ^^^^^^^
+Did you mean?  select):
+  
+app/controllers/pages_controller.rb:25:in `result'
+Started GET "/input" for ::1 at 2022-11-15 16:11:04 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1222)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 15438)
+Completed 200 OK in 36ms (Views: 34.9ms | Allocations: 16150)
+
+
+Started GET "/result?input=23+-34+43+-987.324+398+1+0.43&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:11:17 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"23 -34 43 -987.324 398 1 0.43", "commit"=>"Тык"}
+Completed 500 Internal Server Error in 2ms (Allocations: 791)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..4)):
+  
+app/controllers/pages_controller.rb:25:in `select'
+app/controllers/pages_controller.rb:25:in `result'
+Started GET "/input" for ::1 at 2022-11-15 16:12:09 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2146)
+  Rendered layout layouts/application.html.erb (Duration: 224.7ms | Allocations: 37960)
+Completed 200 OK in 238ms (Views: 230.7ms | ActiveRecord: 0.0ms | Allocations: 41386)
+
+
+Started GET "/result?input=3+-44+234.234+-123+234&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:12:16 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"3 -44 234.234 -123 234", "commit"=>"Тык"}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 3854)
+
+
+  
+NameError (undefined local variable or method `arr' for #<PagesController:0x0000000000a848>
+
+    @last_positive = arr.select{|el| el > 0}[-1]
+                     ^^^
+Did you mean?  @arr):
+  
+app/controllers/pages_controller.rb:26:in `result'
+Started GET "/input" for ::1 at 2022-11-15 16:12:24 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1276)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 15560)
+Completed 200 OK in 34ms (Views: 32.9ms | Allocations: 16273)
+
+
+Started GET "/result?input=32+09+-322+989.232+123.234&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:12:31 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"32 09 -322 989.232 123.234", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 1.8ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2651)
+Completed 200 OK in 15ms (Views: 12.0ms | Allocations: 3324)
+
+
+Started GET "/result?input=32+09+-322+989.232+123.234&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:12:54 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"32 09 -322 989.232 123.234", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 1.7ms | Allocations: 273)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3106)
+Completed 200 OK in 17ms (Views: 13.6ms | Allocations: 4240)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:12:55 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1448)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4142)
+Completed 200 OK in 11ms (Views: 10.3ms | Allocations: 4468)
+
+
+Started GET "/result?input=32+09+-322+989.232+123.234&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:13:15 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"32 09 -322 989.232 123.234", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 48)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2407)
+Completed 200 OK in 12ms (Views: 10.6ms | Allocations: 2971)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:13:22 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3842)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 4103)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:15:23 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2144)
+  Rendered layout layouts/application.html.erb (Duration: 100.7ms | Allocations: 37807)
+Completed 200 OK in 112ms (Views: 104.5ms | ActiveRecord: 0.0ms | Allocations: 41227)
+
+
+Started GET "/result?input=45+-23+-23+-45+-345&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:15:29 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"45 -23 -23 -45 -345", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 1.3ms | Allocations: 307)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2777)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3565)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:15:31 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1218)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3855)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 4117)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:25:35 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1454)
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 15930)
+Completed 200 OK in 37ms (Views: 35.1ms | Allocations: 16962)
+
+
+Started GET "/result?input=-4+-4+-6+-23+-65&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:25:54 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"-4 -4 -6 -23 -65", "commit"=>"Тык"}
+Completed 500 Internal Server Error in 5ms (Allocations: 2031)
+
+
+  
+NoMethodError (undefined method `none?' for "-4 -4 -6 -23 -65":String
+
+    if @input.none?{|n| n > 0}
+             ^^^^^^):
+  
+app/controllers/pages_controller.rb:21:in `validate_input'
+Started GET "/input" for ::1 at 2022-11-15 16:28:48 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1221)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 15546)
+Completed 200 OK in 32ms (Views: 31.5ms | Allocations: 16258)
+
+
+Started GET "/result?input=-2+-3+-4+-5+0&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:28:55 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"-2 -3 -4 -5 0", "commit"=>"Тык"}
+Redirected to http://localhost:3000/
+Filter chain halted as :validate_input rendered or redirected
+Completed 302 Found in 3ms (Allocations: 568)
+
+
+Started GET "/" for ::1 at 2022-11-15 16:28:55 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3876)
+Completed 200 OK in 16ms (Views: 14.8ms | Allocations: 4144)
+
+
+Started GET "/result?input=354-&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:29:03 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"354-", "commit"=>"Тык"}
+Redirected to http://localhost:3000/
+Filter chain halted as :validate_input rendered or redirected
+Completed 302 Found in 2ms (Allocations: 463)
+
+
+Started GET "/" for ::1 at 2022-11-15 16:29:03 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3891)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 4146)
+
+
+Started GET "/result?input=1+2+3&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:29:19 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"1 2 3", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 1.4ms | Allocations: 272)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 2632)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 3289)
+
+
+Started GET "/result?input=1+2+3&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:29:44 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"1 2 3", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 7.1ms | Allocations: 307)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 3140)
+Completed 200 OK in 20ms (Views: 17.5ms | Allocations: 4251)
+
+
+Started GET "/result?input=1+2+3&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:30:03 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"1 2 3", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 2.1ms | Allocations: 309)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3142)
+Completed 200 OK in 18ms (Views: 15.1ms | Allocations: 4320)
+
+
+Started GET "/result?input=1+2+3&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:30:05 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"1 2 3", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 2412)
+Completed 200 OK in 12ms (Views: 10.0ms | Allocations: 3042)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:30:06 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1448)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4105)
+Completed 200 OK in 13ms (Views: 12.0ms | Allocations: 4413)
+
+
+Started GET "/result?input=1+2+3&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:30:08 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"1 2 3", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.5ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2412)
+Completed 200 OK in 11ms (Views: 8.5ms | Allocations: 2995)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:30:23 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3837)
+Completed 200 OK in 15ms (Views: 14.1ms | Allocations: 4092)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:33:45 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3834)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 4087)
+
+
+Started GET "/result?input=3+4+-0.134+34.123+90.122&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:34:00 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"3 4 -0.134 34.123 90.122", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 0.4ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2411)
+Completed 200 OK in 12ms (Views: 10.2ms | Allocations: 2963)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:35:46 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1507)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 4675)
+Completed 200 OK in 22ms (Views: 20.0ms | Allocations: 5490)
+
+
+Started GET "/result?input=23&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:35:48 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"23", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 3.1ms | Allocations: 249)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 2608)
+Completed 200 OK in 16ms (Views: 14.2ms | Allocations: 3237)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:46:08 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1458)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 16020)
+Completed 200 OK in 29ms (Views: 27.6ms | Allocations: 17056)
+
+
+Started GET "/result?input=234+345+-346+2345&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:49:16 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"234 345 -346 2345", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 1.9ms | Allocations: 253)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2612)
+Completed 200 OK in 13ms (Views: 10.9ms | Allocations: 3257)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:52:17 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1198)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3831)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 4086)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:53:26 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1529)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 4697)
+Completed 200 OK in 18ms (Views: 17.0ms | Allocations: 5510)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:53:29 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1216)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3858)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 4129)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:53:30 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1215)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3848)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 4101)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:53:30 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1213)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3852)
+Completed 200 OK in 11ms (Views: 10.7ms | Allocations: 4105)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:53:50 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1519)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 4690)
+Completed 200 OK in 17ms (Views: 15.5ms | Allocations: 5503)
+
+
+Started GET "/result?input=1+-2+3+-4.5+5&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:53:52 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"1 -2 3 -4.5 5", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 2.4ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 2607)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 3253)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:54:13 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1208)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 3847)
+Completed 200 OK in 17ms (Views: 15.7ms | Allocations: 4102)
+
+
+Started GET "/result?input=1+-2+3+-4.5+5&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:54:54 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"1 -2 3 -4.5 5", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 2.0ms | Allocations: 309)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3142)
+Completed 200 OK in 19ms (Views: 16.2ms | Allocations: 4293)
+
+
+Started GET "/input" for ::1 at 2022-11-15 16:54:56 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1460)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 4160)
+Completed 200 OK in 16ms (Views: 14.0ms | Allocations: 4486)
+
+
+Started GET "/result?input=1+-2+3+-4.5+5&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 16:55:53 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"1 -2 3 -4.5 5", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 1.4ms | Allocations: 306)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3144)
+Completed 200 OK in 13ms (Views: 10.7ms | Allocations: 4263)
+
+
+Started GET "/" for ::1 at 2022-11-15 16:55:53 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1464)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 4171)
+Completed 200 OK in 17ms (Views: 16.1ms | Allocations: 4499)
+
+
+Started GET "/" for ::1 at 2022-11-15 17:07:41 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1208)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 3862)
+Completed 200 OK in 18ms (Views: 17.0ms | Allocations: 4115)
+
+
+Started GET "/" for ::1 at 2022-11-15 17:09:34 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2158)
+  Rendered layout layouts/application.html.erb (Duration: 271.9ms | Allocations: 37789)
+Completed 200 OK in 291ms (Views: 278.0ms | ActiveRecord: 0.0ms | Allocations: 41215)
+
+
+Started GET "/" for ::1 at 2022-11-15 17:09:35 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1252)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4061)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 4385)
+
+
+Started GET "/result?input=1+-2+3+-4.5+5&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 17:09:37 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"1 -2 3 -4.5 5", "commit"=>"Тык"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/result.html.erb within layouts/application
+  Rendered pages/result.html.erb within layouts/application (Duration: 2.4ms | Allocations: 316)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 2676)
+Completed 200 OK in 17ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 3337)
+
+
+Started GET "/" for ::1 at 2022-11-15 17:09:39 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1209)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 3867)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 4129)
+
+
+Started GET "/result?input=&commit=%D0%A2%D1%8B%D0%BA" for ::1 at 2022-11-15 17:09:42 +0300
+Processing by PagesController#result as HTML
+  Parameters: {"input"=>"", "commit"=>"Тык"}
+Redirected to http://localhost:3000/
+Filter chain halted as :validate_input rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 538)
+
+
+Started GET "/" for ::1 at 2022-11-15 17:09:42 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1210)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 3878)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 4139)
+
+
+Started GET "/" for ::1 at 2022-11-15 17:09:45 +0300
+Processing by PagesController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/input.html.erb within layouts/application
+  Rendered pages/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1208)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3850)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4106)
+
+

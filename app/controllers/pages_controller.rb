@@ -1,44 +1,33 @@
+# frozen_string_literal: true
+
+# class PagesController
 class PagesController < ApplicationController
-  before_action :get_input, only: :result
-  #before_action :need_only_words, only: :result
-  before_action :need_any_numbers, only: :result
-  #before_action :need_only_integers, only: :result
-  before_action :validate_all, only: :result
+  before_action :read_input, only: :result
+  before_action :validate_input, only: :result
 
-  def input
-  end
+  def input; end
 
-  def get_input
+  def read_input
     @input = params[:input]
+    @arr = @input.split(' ').map!(&:to_f)
   end
 
-  def need_only_words #with spaces
-    if @input.match(/^[a-zA-Z ]+$/).nil?
+  def validate_input
+    if @input.match(/^( ?)+(-?\d+(\.\d+)?)((?:\ +(-?\d+(\.\d+)?))+)?(\ +)?$/).nil?
       flash[:alert] =
-        "Должны быть введены только слова через пробел"
+        'Введите положительные/отрицательные целые/вещественные числа через пробел'
+      # #ошибка #{@input.match(/^(-?\d+(\.\d+)?)((?:\ (-?\d+(\.\d+)?))+)?$/)}"
     end
-  end
-
-  def need_any_numbers #integers and decimals
-    if @input.match(/^([-]?\d+(\.\d+)?)((?:\ ([-]?\d+(\.\d+)?))+)?$/).nil?
+    if @arr.none?(&:positive?)
       flash[:alert] =
-        "Введите положительные/отрицательные целые/вещественные числа через пробел"
+        'Введите хотя бы одно положительное число'
     end
-  end
-
-  def need_only_integers 
-    if @input.match(/^([-]?\d+)((?:\ ([-]?\d+))+)?$/).nil?
-      flash[:alert] =
-        "Введите положительные/отрицательные целые числа через пробел"
-    end
-  end
-
-  def validate_all
     redirect_to home_path unless flash.empty?
   end
 
   def result
-    
-    @result = @input
+    @counter = @arr.select.with_index { |_el, i| (i % 3).zero? }.size
+    @last_positive = @arr.select(&:positive?)[-1]
+    @result = @counter.to_f / @last_positive
   end
 end

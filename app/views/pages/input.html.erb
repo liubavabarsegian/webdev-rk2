@@ -3,12 +3,15 @@
 		<h1>РК № 2 по курсу "Языки интернет-программирования"</h1>
 		<h2>Студент:</h2>
 		<p>Барсегян Люба, ИУ6-35Б</p>
+		<h2>Билет № 18</h2>
 		<h2>Задание:</h2>
-		<p>...................</p>
+		<p>Дан массив чисел arr_b. 
+		Найти частное от деления количества элементов, 
+		индексы которых кратны 3, на последний положительный элемент массива.</p>
 	</div>
 	<%= form_with url: '/result', class: 'form', method: :get do |form| %>
 		<p><%= form.label :input, "Введите что-нибудь", class: "label"%></p>
-		<div><%= form.text_field :input , class: "field"%></div>
+		<div><%= form.text_field :input , class: "field", value: "1 -2 3 -4.5 5"%></div>
 		<div><%= form.submit "Тык", class: "button"%></div>
 	<%end%>
 </form>

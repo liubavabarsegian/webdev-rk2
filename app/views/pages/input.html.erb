@@ -1,0 +1,14 @@
+<div class = "main-input">
+	<div class = "info">
+		<h1>РК № 2 по курсу "Языки интернет-программирования"</h1>
+		<h2>Студент:</h2>
+		<p>Барсегян Люба, ИУ6-35Б</p>
+		<h2>Задание:</h2>
+		<p>...................</p>
+	</div>
+	<%= form_with url: '/result', class: 'form', method: :get do |form| %>
+		<p><%= form.label :input, "Введите что-нибудь", class: "label"%></p>
+		<div><%= form.text_field :input , class: "field"%></div>
+		<div><%= form.submit "Тык", class: "button"%></div>
+	<%end%>
+</form>
